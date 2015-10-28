@@ -149,24 +149,29 @@ font-weight: 900;
 	background-attachment: fixed;
 	padding-bottom: 25px;
 }
-.overlay-white h2{
+.overlay-white h1{
 	color: #0DB575;
 }
-
-.engage-section .content{
-	padding-top: 3%;
-}
 #sec1{
-	height: 750px;
+	min-height: 1000px;
 }
 #sec3{
-	height: 1300px;
+	min-height: 1200px;
 }
 #sec4{
-	height: 500px;
+	min-height: 400px;
 }
 #sec5{
-	height: 1300px;
+	min-height: 300px;
+}
+#sec6{
+	min-height: 800px;
+}
+#sec7{
+	min-height: 500px;
+}
+.resizing-img{
+	width: 100%;
 }
 .engage-section{
 	heigth: 900px;
