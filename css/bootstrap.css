@@ -5664,7 +5664,7 @@ a.list-group-item-danger.active:focus {
   padding: 10px 25px 10px 0px;
   margin-top: 125px;
   margin-bottom: 20px;
-  background: rgba(255,255,255,0.7) url("../img/background_side_nav.png") no-repeat 98% 47%;
+  background: rgba(255,255,255,0.5) url("../img/background_side_nav.png") no-repeat 98% 47%;
   border: 1px solid #e3e3e3;
   border-radius: 10px;
   font-weight: bold;

@@ -144,19 +144,21 @@ font-weight: 900;
 	padding-bottom: 25px;
 }
 .overlay-white{
-	background: rgba(255,255,255,0.5);
-	height: auto;
+	background: rgba(255,255,255,0.7);
 	background-attachment: fixed;
 	padding-bottom: 25px;
 }
-.overlay-white h1{
+.overlay-white h2{
 	color: #0DB575;
+}
+.engage-section .content{
+	padding-top: 3%;
 }
 #sec1{
 	min-height: 1000px;
 }
 #sec3{
-	min-height: 1200px;
+	height: 600px;
 }
 #sec4{
 	min-height: 400px;
@@ -173,19 +175,56 @@ font-weight: 900;
 .resizing-img{
 	width: 100%;
 }
-.engage-section{
-	heigth: 900px;
-}
 #tf-engage{
 	color: #fff;
 }
 #tf-engage p{
 	font-size: 16px;
 }
-ul {
+ul{
 	font-size: 16px;
     list-style-position: inside;
     margin-left: 25px; 
+}
+#buttons{
+	margin-top: 75px;
+}
+#box-1{
+	display:none;
+}
+#box-2{
+	display:none;
+}
+#box-3{
+	display:none;
+}
+.box{
+	border: 1px solid #CCC;
+    box-shadow: 0 1px 5px #CCC;
+    border-radius: 5px;
+    margin: 25px auto;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 10px 30px;
+    line-height: 150%;
+}
+.box h3{
+	color: #0DB575;
+	font-size: 25px;
+}
+.selectable{
+	opacity: 0.5;
+}
+.selectable:hover{
+	opacity: 1;
+}
+#myCarousel{
+	width: 70%;
+	left: 15%;
+	margin-bottom: 30px;
+}
+.small-link{
+	float: none;
 }
 #tf-studies{
 	background-image: url("../img/07.jpg");
