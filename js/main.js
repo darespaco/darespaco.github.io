@@ -176,6 +176,7 @@ var openBox = function(id) {
   }
 
   buttons.style.marginTop = "0";
+  buttons.style.padding = "0";
   images[0].width = "70";
   images[1].width = "70";
   images[2].width = "70";

@@ -3026,7 +3026,7 @@ fieldset[disabled] .btn {
 .btn-default {
   color: #333;
   background-color: #fff;
-  border-color: #00A9FF;
+  border-color: rgba(0, 0, 0, 0);
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -3036,7 +3036,7 @@ fieldset[disabled] .btn {
 .open > .dropdown-toggle.btn-default {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #00A9FF;
+  border-color: rgba(0, 0, 0, 0);
 }
 .btn-default:active,
 .btn-default.active,
@@ -3873,8 +3873,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
   padding: 10px 15px;
 }
-.nav > li > a:hover,
-.nav > li > a:focus {
+.nav > li > a:hover{
   text-decoration: none;
   background-color: #eee;
 }
@@ -5661,24 +5660,25 @@ a.list-group-item-danger.active:focus {
   position: fixed;
   z-index: 100;
   min-height: 20px;
-  padding: 10px 25px 10px 0px;
+  padding: 10px 20px 10px 0px;
   margin-top: 125px;
   margin-bottom: 20px;
-  background: rgba(255,255,255,0.5) url("../img/background_side_nav.png") no-repeat 98% 47%;
+  background: rgba(255,255,255,0) url("../img/background_side_nav.png") no-repeat 98% 47%;
   border: 1px solid #e3e3e3;
-  border-radius: 10px;
+  border-radius: 0px 50px 50px 0px;
   font-weight: bold;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-  -webkit-transition: background 0.5s; /* For Safari 3.1 to 6.0 */
-    transition: background 0.5s;
-  -webkit-transition: left 0.35s; /* For Safari 3.1 to 6.0 */
-    transition: left 0.35s;
+  -webkit-transition: background 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.2s;
+  -webkit-transition: left 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: left 0.2s;
 }
 .well:hover{
   background: rgba(255,255,255,1) url("") no-repeat 98% 45%;
   left: -10px;
   padding: 10px 25px 10px 0px;
+  border-radius: 4px;
 }
 .well a{
     color: #00D07F;
