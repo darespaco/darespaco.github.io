@@ -174,16 +174,4 @@ var openBox = function(id) {
     images[2].style.opacity = "1";
     sec3.style.height = "800px";
   }
-
-  buttons.style.marginTop = "0";
-  buttons.style.padding = "0";
-  images[0].width = "70";
-  images[1].width = "70";
-  images[2].width = "70";
-  titles[0].style.fontSize = "14px";
-  titles[0].style.marginTop = "0";
-  titles[1].style.fontSize = "14px";
-  titles[1].style.marginTop = "0";
-  titles[2].style.fontSize = "14px";
-  titles[2].style.marginTop = "0";
 }
