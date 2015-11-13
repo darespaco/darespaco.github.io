@@ -817,6 +817,18 @@ button.btn.btn-default.center {
 	float: right;
 	margin right: 100px;
 }
+
+.scroll-button {
+	position: fixed;
+	bottom: 0px;
+	right: 25px;
+	opacity: 0.4;
+	-webkit-transition: opacity 0.3s;
+	 -transition: opacity 0.3s;
+}
+.scroll-button:hover{
+	opacity: 1;
+}
 /* Footer */
 nav#footer{
 	background: #222222;
@@ -848,4 +860,22 @@ nav#footer p{
 	color: #ffffff;
 }
 
-
+#playground {
+	width: 90%;
+	height: 750px;
+	left: 5%;
+	color: #0A3348;
+}
+#playground h6{
+	color: #06ACFF;
+	font-size: 20px;
+}
+.play {
+	width: 80%;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.6s;
+		-transition: opacity 0.6s;
+}
+.play:hover {
+	opacity: 1;
+}

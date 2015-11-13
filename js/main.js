@@ -175,3 +175,16 @@ var openBox = function(id) {
     sec3.style.height = "800px";
   }
 }
+
+var scrollToNextSection = function() {
+    var x = 1;
+    var y = 20;
+
+    var scroll = setInterval(function() {
+      window.scrollBy(0, x);
+      x = x + 5;
+      if(x == 101){
+        clearInterval(scroll);
+      }
+    }, y);
+}
