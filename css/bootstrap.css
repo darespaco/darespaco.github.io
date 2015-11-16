@@ -5681,6 +5681,10 @@ a.list-group-item-danger.active:focus {
 .well a{
     color: #fff;
 }
+.well a:hover,
+.well a:focus {
+  color:#0B4830;
+} 
 .well blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, .15);

@@ -188,3 +188,7 @@ var scrollToNextSection = function() {
       }
     }, y);
 }
+
+var changeNavColor = function() {
+  console.log("Changing color...");
+}
