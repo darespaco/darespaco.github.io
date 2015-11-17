@@ -20,6 +20,17 @@
 
 }
 
+@media only screen {
+
+    .well:focus {
+      background: rgba(13,181,117,1) url("") no-repeat 98% 45%;
+      left: -10px;
+      padding: 10px 25px 10px 0px;
+      border-radius: 4px;
+    }
+
+}
+
 @media (max-width: 603px){
 #tf-menu.navbar-default {
 	background-color: rgba(0,71,107,1);
