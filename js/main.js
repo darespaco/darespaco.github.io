@@ -133,7 +133,7 @@ var openBox = function(id) {
   var box2 = document.getElementById("box-2");
   var box3 = document.getElementById("box-3");
 
-  var buttons = document.getElementById("buttons")
+  var buttons = document.getElementById("teacher-buttons")
   var images = buttons.getElementsByTagName('img');
   var titles = buttons.getElementsByTagName('h3');
   var lines = buttons.getElementsByTagName('hr');

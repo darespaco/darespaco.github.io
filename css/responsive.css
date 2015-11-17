@@ -1,7 +1,23 @@
-@media (max-width: 768px){
-  .content {
-	padding: 20% 0 0;
-	}
+@media (max-width: 1180px) {
+
+    /* Section 5 */
+
+}
+
+@media (max-width: 1000px) {
+
+    .content {
+	   padding: 10% 5% 5% 10%;
+    }
+
+    nav#footer {
+        padding-left: 5%;
+    }
+
+    #sec4 img {
+        width: 30%;
+    }
+
 }
 
 @media (max-width: 603px){
