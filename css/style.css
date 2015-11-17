@@ -788,14 +788,6 @@
 				-transition: all 0.5s;
 		}
 
-		.closeBox {
-			position: absolute;
-			top: 10px;
-			right: 10px;
-			z-index: 10000;
-			padding: 0;
-		}
-
 		.showTeamBox {
 			display: block !important;
 			opacity: 1 !important;
@@ -888,6 +880,19 @@
 	.up-arrow:hover, 
 	.down-arrow:hover {
 		opacity: 1;
+	}
+
+	.closeBox {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		z-index: 10000;
+		padding: 0;
+	}
+
+	.closeBox.left {
+		right: auto;
+		left: 15px;
 	}
 
 /* FORMS*/
