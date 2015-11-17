@@ -192,3 +192,60 @@ var scrollToNextSection = function() {
 var changeNavColor = function() {
   console.log("Changing color...");
 }
+
+var openTeamDetailsBox = function(id) {
+  var details_box = document.getElementById("team-details");
+
+  var images = ["img/team/01.jpg",
+                "img/team/02.jpeg",
+                "img/team/03.jpeg",
+                "img/team/04.jpg",
+                "img/team/05.jpg"];
+  var names = ["Jonathan Walton",
+                "Maria Lehl",
+                "Cosimo Ranieri",
+                "Anna Walton",
+                "Diego Arespacochaga"];
+  var role = ["CEO / Founder",
+              "Computational Linguist",
+              "Developer",
+              "Psychologist and Project Manager",
+              "Developer"];
+  var languages = ["Native language: English. Other languages: Russian, Croatian, Hebrew, Japanese, French.",
+                  "Native language: German. Other languages: Russian, English, French, Spanish",
+                  "Native language: Italian. Other languages: English",
+                  "Native language: English. Other languages: French and Italian",
+                  "Native language: Spanish. Other languages: English and Italian"];
+  var details = ["Former English teacher with 15 years’ expertise in project / product management in music, media and technology industries, working alongside clients such as EMI and Virgin.",
+                 "NLP and Artificial Intelligence engineer. MSc in Computational Linguistics at Osnabrueck University, PhD candidate with a thesis on automatic generation of English language exercises. Maria has a passion for song lyrics and language exercises, and is a rare expert in this area.",
+                 "Back End Developer. Five plus years’ experience with Ruby on Rails, MongoDB, MySQL.",
+                 "Extensive research, scientific validation, trialling, product positioning alongside existing evidence-based and app content creation experience, specialist in child learning and motivation.",
+                 "Assisting Cosimo with content addition, debugging and platform testing."];
+                  
+  details_box.innerHTML = "<img type='button' class='btn btn-link closeBox' src='img/close.png' width='25' onclick='closeTeamDetailsBox();'>" + 
+                          "<div class='row'>" + 
+                              "<div class='col-md-2'></div>" + 
+                              "<div class='col-md-1'></div>" + 
+                              "<div class='col-md-2'>" + 
+                                "<img src='" + images[id] + "' class='img-circle team-img'>" +
+                              "</div>" + 
+                              "<div class='col-md-3'>" +
+                                "<br>" + 
+                                "<h3>" + names[id] + "</h3>" + 
+                                "<h7>" + role[id] + "</h7>" + 
+                              "</div>" +
+                              "<div class='col-md-2'></div>" + 
+                              "<div class='col-md-2'></div>" +  
+                          "</div>" + 
+                          "<br><br>" + 
+                          "<p><strong>" + languages[id] + "</strong></p>" + 
+                          "<p>" + details[id] + "</p>";
+
+details_box.className = "showTeamBox";
+}
+
+
+var closeTeamDetailsBox = function() {
+  var details_box = document.getElementById("team-details");
+  details_box.className = "";
+}

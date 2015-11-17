@@ -47,7 +47,7 @@ header h1 {
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 6em;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 #cd-timeline::before {
@@ -62,7 +62,7 @@ header h1 {
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
-    margin-top: 6em;
+    margin-top: 2em;
     margin-bottom: 3em;
   }
   #cd-timeline::before {
@@ -88,7 +88,7 @@ header h1 {
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-block {
-    margin: 4em 0;
+    margin: 2em 0;
   }
   .cd-timeline-block:first-child {
     margin-top: 0;
@@ -262,7 +262,7 @@ header h1 {
   #cd-timeline {
     position: relative;
     padding: 2em 0;
-    margin-top: 6em;
+    margin-top: 2em;
     margin-bottom: 2em;
   }
   .cd-timeline-content h2 {

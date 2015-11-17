@@ -33,6 +33,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
         <script type="text/javascript" src="js/timeline.js"></script>
+
     </head>
     <body>
         <!-- Navigation
@@ -82,7 +83,7 @@
                         <ul class="about-list">
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
-                                <strong>Mission</strong><br>
+                                <strong>Our Mission</strong><br>
                                 <p>Our primary mission is to make English language learning and literacy fun, easy and accessible to everyone. We don’t think that any child should leave school unable to read, or that learning English as a foreign language should only be available to those who can pay for it. We also want every learner and every teacher to understand that language and literacy skills develop through exposure to that language in context, and that students learn best when they’re interested and enjoying themselves.
 
                                 Our tech is unique but based on solid pedagogical research. We’re therefore focused on continual development, trialling and feedback of our software and we’re always looking for educational and funding partners to help us take it to the next level.</p>
@@ -90,7 +91,7 @@
                             <br>
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
-                                <strong>Skills</strong><br>
+                                <strong>Our Skills</strong><br>
                                 <p>We think that English language educational content is often boring and irrelevant to students, and that’s why many give up, don’t want to practice or aren’t interested in learning. Why plough through boring grammar exercises when you can use your favourite video content - which you already watch for fun - to play language games, so that you learn without even realising it? Our team all speak multiple languages, so they know language learning inside out. We’ve also got expertise in technology, teaching, high level research and music. We are masters at creating innovative ways to use technology and existing music, cartoon, film and TV content to create automated language games, with software that can also track progress and assess as students go along.</p>
                             </li>
                         </ul>
@@ -109,70 +110,60 @@
                     <div class="section-title center">
                         <h2><strong>Meet our fantastic team</strong></h2>
                         <div class="line"></div>
+                        <p>Click to know us</p>
+                    </div>
+
+                    <div id="team-details">
+                        <!-- Here will be injected the details of the team member. More info in main.js file -->
                     </div>
 
                     <div id="team" class="owl-carousel owl-theme row">
                         <div class="item">
-                            <div class="thumbnail">
+                            <div type="button" class="btn thumbnail" onclick="openTeamDetailsBox(0);">
                                 <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
                                 <div class="caption">
                                     <h3>Jonathan Walton</h3>
                                     <h7>CEO / Founder</h7>
-                                    <br><br>
-                                    <p>Native language: English. Other languages: Russian, Croatian, Hebrew, Japanese, French.</p>
-                                    <p>Former English teacher with 15 years’ expertise in project / product management in music, media and technology industries, working alongside clients such as EMI and Virgin.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="thumbnail">
+                            <div type="button" class="btn thumbnail" onclick="openTeamDetailsBox(1);">
                                 <img src="img/team/02.jpeg" alt="..." class="img-circle team-img">
                                 <div class="caption">
                                     <h3>Maria Lehl</h3>
                                     <h7>Computational Linguist</h7>
-                                    <br><br>
-                                    <p>Native language: German. Other languages: Russian, English, French, Spanish</p>
-                                    <p>NLP and Artificial Intelligence engineer. MSc in Computational Linguistics at Osnabrueck University, PhD candidate with a thesis on automatic generation of English language exercises. Maria has a passion for song lyrics and language exercises, and is a rare expert in this area.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="thumbnail">
+                            <div type="button" class="btn thumbnail" onclick="openTeamDetailsBox(2);">
                                 <img src="img/team/03.jpeg" alt="..." class="img-circle team-img">
                                 <div class="caption">
                                     <h3>Cosimo Ranieri</h3>
                                     <h7>Developer</h7>
-                                    <br><br>
-                                    <p>Native language: Italian. Other languages: English</p>
-                                    <p>Back End Developer. Five plus years’ experience with Ruby on Rails, MongoDB, MySQL.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="thumbnail">
+                            <div type="button" class="btn thumbnail" onclick="openTeamDetailsBox(3);">
                                 <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
                                 <div class="caption">
                                     <h3>Anna Walton</h3>
                                     <h7>Psychologist and Project Manager</h7>
-                                    <br><br>
-                                    <p>Native language: English. Other languages: French and Italian</p>
-                                    <p>Extensive research, scientific validation, trialling, product positioning alongside existing evidence-based and app content creation experience, specialist in child learning and motivation.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="thumbnail">
+                            <div type="button" class="btn thumbnail" onclick="openTeamDetailsBox(4);">
                                 <img src="img/team/05.jpg" alt="..." class="img-circle team-img">
                                 <div class="caption">
                                     <h3>Diego Arespacochaga</h3>
                                     <h7>Developer</h7>
-                                    <br><br>
-                                    <p>Native language: Spanish. Other languages: English and Italian</p>
-                                    <p>Assisting Cosimo with content addition, debugging and platform testing.</p>
                                 </div>
                             </div>
                         </div>
@@ -186,23 +177,23 @@
 
         <!-- Timeline Section
         ==========================================-->
-        <section id="sc-timeline">
+        <section id="sc-timeline" class="overlay-dark-blue">
             <div class="container text-center">
                 <div class="section-title">
-                    <h2><strong>Our life so far</strong></h2>
+                    <h2><strong>This is our life so far</strong></h2>
                 </div>
                 
                 <div id="cd-timeline" class="cd-container">
         		  <div class="cd-timeline-block">
         			<div class="cd-timeline-img cd-picture">
         				<img src="img/cd-icon-picture.svg" alt="Picture">
-        			</div> <!-- cd-timeline-img -->
+                    </div> <!-- cd-timeline-img -->
 
-        			<div class="cd-timeline-content">
-        				<h2>Winners of ICTomorrow Competition contest for TV & Film 2012</h2>
-        				<p>Tonguesten won a Digital Innovation Award and initial funding to design and construct a demo product -  the first version of our music video English language game, which would later become ReBeats. Developed in collaboration with Hat Trick Productions (2013).</p>
-        			</div> <!-- cd-timeline-content -->
-        		  </div> <!-- cd-timeline-block -->
+                    <div class="cd-timeline-content">
+                        <h2>Winners of ICTomorrow Competition contest for TV & Film 2012</h2>
+                        <p>Tonguesten won a Digital Innovation Award and initial funding to design and construct a demo product -  the first version of our music video English language game, which would later become ReBeats. Developed in collaboration with Hat Trick Productions (2013).</p>
+                    </div> <!-- cd-timeline-content -->
+                  </div> <!-- cd-timeline-block -->
 
         		  <div class="cd-timeline-block">
         			<div class="cd-timeline-img cd-movie">
@@ -298,7 +289,8 @@
         <script type="text/javascript" src="js/SmoothScroll.js"></script>
         <script type="text/javascript" src="js/jquery.isotope.js"></script>
 
-        <script src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/owl_customized.js"></script>
 
         <!-- Javascripts
         ================================================== -->

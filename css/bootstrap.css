@@ -4193,6 +4193,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid transparent;
   border-radius: 4px;
 }
+.navbar-toggle:hover {
+  background-color: rgba(255,255,255,0.5);
+}
 .navbar-toggle:focus {
   outline: 0;
 }
@@ -4422,10 +4425,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: rgba(255,255,255,0.5);
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #fff;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -4518,7 +4521,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #333;
+  background-color: rgba(255,255,255,0.5);
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -5673,6 +5676,7 @@ a.list-group-item-danger.active:focus {
     transition: left 0.2s;
 }
 .well:hover,
+.well:focus,
 .well:active {
   background: rgba(13,181,117,1) url("") no-repeat 98% 45%;
   left: -10px;

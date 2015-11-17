@@ -155,18 +155,6 @@
 		font-weight: 700;
 	}
 
-	.navbar-toggle {
-		border-radius: 0;
-	}
-	.navbar-default .navbar-toggle:hover, 
-	.navbar-default .navbar-toggle:focus {
-		background-color: #00A9FF;
-		border-color: #00A9FF;
-	}
-	.navbar-default .navbar-toggle:hover>.icon-bar {
-		background-color: #FFF;
-	}
-
 /* GENERAL CLASSES FOR SECTIONS */
 	
 	/* General */
@@ -186,6 +174,13 @@
 
 		.overlay-blue {
 			background: rgba(1,170,255,1);
+			height: auto;
+			background-attachment: fixed;
+			padding-bottom: 25px;
+		}
+
+		.overlay-dark-blue {
+			background: rgba(0,144,215,1);
 			height: auto;
 			background-attachment: fixed;
 			padding-bottom: 25px;
@@ -778,10 +773,39 @@
 			background: #00A9FF;
 		}
 
+		#team-details {
+			position: absolute;
+			display: hidden;
+			opacity: 0;
+			width: 60%;
+			left: 20%;
+			background: rgba(255,255,255,0.9);
+			border: 2px solid #0692D7;
+			padding: 20px;
+			color: #1A1A19;
+			border-radius: 5px;
+			-webkit-transition: all 0.5s;
+				-transition: all 0.5s;
+		}
+
+		.closeBox {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			z-index: 10000;
+			padding: 0;
+		}
+
+		.showTeamBox {
+			display: block !important;
+			opacity: 1 !important;
+			z-index: 1000;
+		}
+
 	/* Section 3 (timeline) */
 
 		#sc-timeline {
-			margin-top: 50px;
+			padding-top: 50px;
 		}
 
 	/* Text Variations */
@@ -803,13 +827,16 @@
 			color: rgba(255,255,255,0.8);
 		}
 
+		#sc-timeline .section-title {
+			color: #fff;
+		}
+
 /* FOOTER */
 
 	nav#footer {
 		background: #222222;
 		color: #ffffff;
 		padding: 20px 0 15px 0;
-		margin-top: 20px;
 	}
 
 	nav#footer .fnav { 
