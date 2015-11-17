@@ -249,3 +249,30 @@ var closeTeamDetailsBox = function() {
   var details_box = document.getElementById("team-details");
   details_box.className = "";
 }
+
+
+var sm = $("#sub-menu");
+    sms = "sub-menu-scrolled";
+    hdr = $('tf-menu').height();
+    arr = $("#arrow");
+    rot = "rotate-arrow";
+    lnk = $(".arrow");
+    sec = $("#sec1");
+    xtPad = "extraPadding";
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdr ) {
+    sm.addClass(sms);
+    arr.addClass(rot);
+    sec.addClass(xtPad);
+    lnk.attr("href", "#sec0");
+  } else {
+    sm.removeClass(sms);
+    arr.removeClass(rot);
+    sec.removeClass(xtPad);
+    lnk.attr("href", "#sec1");
+  }
+
+});
+
+

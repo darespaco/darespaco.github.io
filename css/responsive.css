@@ -22,9 +22,6 @@
 
 
 @media (max-width: 603px){
-#tf-menu.navbar-default {
-	background-color: rgba(0,71,107,1);
-	}
 #tf-works li.pull-right, #tf-works li.pull-left {
     margin-top: 10px;
     float: none !important;

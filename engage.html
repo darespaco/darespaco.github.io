@@ -63,30 +63,38 @@
 
         <!-- Lateral Navigation
         ==========================================-->
-        <div class="col-md-3"> 
-        
-            <div class="well"> 
-                <ul class="nav nav-stacked" id="sidebar">
-                  <!--<img type="button" class="btn btn-link closeBox left" src="img/left.png" width="25" onclick="closeSidebar();">-->
-                  <br><br><br><br>
-                  <li><a href="#sec1" class="page-scroll">What is Engage?</a></li>
-                  <li><a href="#sec2" class="page-scroll">For Teachers</a></li>
-                  <li><a href="#sec3" class="page-scroll">Student Profiles</a></li>
-                  <li><a href="#sec4" class="page-scroll">Science</a></li>
-                  <li><a href="#sec5" class="page-scroll">Trialling Feedback</a></li>
-                  <li><a href="#sec6" class="page-scroll">Get Involved</a></li>
-                </ul>
+
+        <nav id="sub-menu">
+            <div class="navbar-collapse bar text-center">
+                <div class="col-md-2"><a href="#sec1" class="page-scroll">What is Engage?</a></div>
+                <div class="col-md-2"><a href="#sec2" class="page-scroll">For Teachers</a></div>
+                <div class="col-md-2"><a href="#sec3" class="page-scroll">Student Profiles</a></div>
+                <div class="col-md-2"><a href="#sec4" class="page-scroll">Science</a></div>
+                <div class="col-md-2"><a href="#sec5" class="page-scroll">Trialling Feedback</a></div>
+                <div class="col-md-2"><a href="#sec6" class="page-scroll">Get Involved</a></div>
             </div>
-        </div>  
+        </nav>
 
         <!--<button type="button" class="btn btn-link scroll-button page-scroll" onclick="scrollToNextSection();"><img src="img/scroll-down.png" width="50"></button>-->
+
+        <!-- Welcome Section
+        ==========================================-->
+        <section id="sec0">
+            <div class="cover">
+                <img class="logo" src="img/engage-logo.png">
+                <h3>OUR REVOLUTIONARY LITERACY AND LANGUAGE LEARNING PLATFORM.</h3>
+            </div>
+        </section>
+        <div id="arrow">
+            <a class="arrow page-scroll" href="#sec1"><img src="img/arrow-custom.png"></a>
+        </div>
 
         <!-- What's Engage Section
         ==========================================-->
         <section id="sec1" class="text-center">
-            <div class="content col-md-10 col-md-offset-1">
-                <img src="img/engage-logo.png" width="300">
-                <h3>OUR REVOLUTIONARY LITERACY AND LANGUAGE LEARNING PLATFORM.</h3>
+            <div class="engage-content col-md-10 col-md-offset-1">
+                <h2><strong>What is Engage?</strong></h2>
+                <div class="green-line"></div>
                 <br>
                 <p>Engage is an education platform for self-directed literacy learning that uses advanced pedagogical research, the latest music videos and cutting edge technology. We built it in collaboration with Head Teachers, literacy specialists and children in UK schools and it is mapped onto The New Curriculum. Engage is an intelligent supplementary tool for SPAG literacy teaching and is personalised for each child, allowing them to progress at their own pace while automatically assessing their progress. It uses advanced pedagogical research, cutting edge technology, games and the latest music videos, making learning fun and engaging.</p>
                 </br>
@@ -105,7 +113,6 @@
                 <hr width="70%">
                 </p>
                 <p>To our knowledge, there is no other learning tool that supports all these activities as an integrated process. Engage adapts the material that students choose to engage with out of interest - thus, the content that people are motivated to engage with anyway is exploited for language learning. In the future, Engage will be able to use any video content for language learning, meaning that films, interviews and even football commentary could become tools for teaching children about spelling, punctuation and grammar.</p>
-                <a href="#sec2" class="fa fa-angle-down page-scroll green"></a>
                 <hr>
             </div>
         </section>
@@ -113,8 +120,9 @@
         <!-- For Teachers Section
         ==========================================-->
         <section id="sec2" class="engage-section">
-            <div class="content col-md-10 col-md-offset-1 text-center">
+            <div class="engage-content col-md-10 col-md-offset-1 text-center">
                 <h2><strong>INFORMATION FOR TEACHERS</strong></h2>
+                <div class="green-line"></div>
                 <br>
                 <div id="teacher-buttons" class="row">
                     <div class="selected col-sm-4"><img class="selectable btn btn-link" src="img/teachers/works.png" width="70" onclick="openBox(1);"><h3>How does it work?</h3></div>
@@ -227,6 +235,7 @@
         <section id="sec3" class="engage-section overlay-green">
             <div class="content col-md-10 col-md-offset-1 text-center">
                 <h2><strong>Student Profiles</strong></h2>
+                <div class="white-line"></div>
                 <br>
                 <p>We have understood from our schools partners, that different groups of children have different needs. We’ve put together a couple of profiles of pupils who can really benefit from Engage.</p>
                 <br><br><br>
@@ -252,6 +261,7 @@
         <section id="sec4" class="engage-section">
             <div class="content col-md-8 col-md-offset-2 text-center">
                 <h2><strong>OUR SCIENCE</strong></h2>
+                <div class="green-line"></div>
                 <br><br>
                 <p>Engage is based on robust and comprehensive pedagogical research. From the literature, it is clear that language learners enjoy listening to songs and find it useful but that it can be difficult to identify specific benefits. Engage is based on sound pedagogical research that proves the significant and enduring impact of music and same language subtitling on literacy outcomes.</p>
                 <br>
@@ -270,6 +280,7 @@
         <section id="sec5" class="engage-section">    
             <div class="content col-md-10 col-md-offset-1 text-center">
                 <h2><strong>Trialling feedback</strong></h2>
+                <div class="green-line"></div>
                 <p>We’ve had incredible feedback from teachers and pupils about Engage. Here are some of the things they’ve told us:</p>
                 <br><br>
                 <div class="row text-center testimonial">
