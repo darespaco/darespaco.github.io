@@ -473,6 +473,12 @@
 			color: #00A9FF;
 		}
 
+	/* Contact form */
+
+		#tf-contact {
+			margin-bottom: 20px;
+		}
+
 	/* Text variations */
 	
 		#tf-home p.lead {
@@ -526,12 +532,12 @@
 
 		#sec0 {
 			width: 100%;
-			height: 500px;
+			height: 550px;
 			background-image: url("../img/principal-engage.jpg");
 			background-repeat: no-repeat;
 			background-position: center;
 			background-attachment: scroll;
-			background-size: cover;
+			background-size: 100% 100%;
 			text-align: center;
 			margin-bottom: 30px;
 		}
@@ -571,7 +577,7 @@
 			position: relative;
 			display: inline-block;
 			width: 100%;
-			margin-top: 250px;
+			margin-top: 280px;
 			z-index: 100;
 		}
 
