@@ -257,7 +257,7 @@ var sm = $("#sub-menu");
     arr = $("#arrow");
     rot = "rotate-arrow";
     lnk = $(".arrow");
-    sec = $("#sec1");
+    sec = $("#section1");
     xtPad = "extraPadding";
 
 $(window).scroll(function() {
@@ -265,12 +265,12 @@ $(window).scroll(function() {
     sm.addClass(sms);
     arr.addClass(rot);
     sec.addClass(xtPad);
-    lnk.attr("href", "#sec0");
+    lnk.attr("href", "#topSection");
   } else {
     sm.removeClass(sms);
     arr.removeClass(rot);
     sec.removeClass(xtPad);
-    lnk.attr("href", "#sec1");
+    lnk.attr("href", "#section1");
   }
 
 });

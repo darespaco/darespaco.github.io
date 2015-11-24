@@ -35,7 +35,7 @@
     <body>
         <!-- Navigation
         ==========================================-->
-        <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top blue">
+        <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top blue abs">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -59,11 +59,74 @@
           </div>
         </nav>
 
-        <!-- Partners Section
+        <!-- Lateral Navigation
         ==========================================-->
-        <div id="api" class="content text-center">
-            <img src="img/building.png" width="500">
+        <nav id="sub-menu">
+            <div class="navbar-collapse bar text-center">
+                <div class="col-md-2"></div>
+                <div class="col-md-2"><a href="#section1" class="page-scroll">How it works?</a></div>
+                <div class="col-md-2"><a href="#api-s2" class="page-scroll">Customer User Cases</a></div>
+                <div class="col-md-2"><a href="#api-s3" class="page-scroll">Services</a></div>
+                <div class="col-md-2"><a href="index.html#tf-contact" class="page-scroll">Contact us</a></div>
+                <div class="col-md-2"></div>
+            </div>
+        </nav>
+
+        <!-- Presentation
+        ==========================================-->
+            <span id="topSection">
+        <div id="api-s0" class="api-content text-center">
+            <div class="cover">
+                <h1>Our <strong>Technology.</strong> Your <strong>ideas.</strong></h1>
+                <h3>DISCOVER WHAT COULD YOU DO WITH OUR POWERFUL API</h3>
+            </div>
+            </span>
         </div>
+        <div id="arrow">
+            <a class="arrow page-scroll" href="#section1"><img src="img/arrow-custom-blue.png"></a>
+        </div>
+
+        <!-- How it works
+        ==========================================-->
+        <section id="api-s1" class="text-center">
+            <div id="section1" class="api-content">
+                <h2><strong>That's how it works</strong></h2>
+                <div class="line"></div>
+                <br><br>
+                <div id="api-video" class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i68a6M5FFBc?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=0" ></iframe>
+                </div>
+                <br>
+                <a href="#api-s2" class="fa fa-angle-down page-scroll blue"></a>
+            </div>
+        </section>
+
+        <!-- Customer User Cases
+        ==========================================-->
+        <section id="api-s2" class="text-center">
+            <div class="api-content overlay-blue">
+                <h2><strong>Customer User Cases</strong></h2>
+                <div class="white-line"></div>
+                <br><br>
+                <img src="img/building.png" width="500">
+                <br>
+                <a href="#api-s3" class="fa fa-angle-down page-scroll white"></a>
+            </div>
+        </section>
+
+        <!-- Services
+        ==========================================-->
+        <section id="api-s3" class="text-center">
+            <div class="api-content">
+                <h2><strong>Services</strong></h2>
+                <div class="line"></div>
+                <br><br>
+                <img src="img/building.png" width="500">
+                <br><br>
+                <button type="button" onclick="location.href = 'index.html#tf-contact';" class="btn tf-btn btn-default center">Contact us</button>
+            </div>
+        </section>
+
 
         <!-- Footer Section
         ==========================================-->
@@ -77,10 +140,24 @@
                     <ul class="footer-social">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-genderless"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/SmoothScroll.js"></script>
+        <script type="text/javascript" src="js/jquery.isotope.js"></script>
+
+        <script src="js/owl.carousel.js"></script>
+
+        <!-- Javascripts
+        ================================================== -->
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
